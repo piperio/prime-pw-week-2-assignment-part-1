@@ -1,4 +1,4 @@
-// REQUIRED FEATURES:
+""// REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 var firstName = 'Piper';
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
@@ -61,14 +61,26 @@ if (pets > allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-var mostPets = pets || friendsPets
-if pets > friendsPets) {
-  console.log ('mostPets')
+var mostPets = [pets, mostPets];
+
+if (pets > friendsPets) {
+  console.log ('pets = mostPets')
 }
 if (friendsPets > pets){
-  console.log (mostPets)
+  console.log ('friendsPets = mostPets')
 }
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+switch (pets) {
+  case (pets> friendsPets):
+  break;
+    console.log ('pets = mostPets');
+    case (friendsPets> pets):
+    break;
+    console.log ('friendsPets = mostPets')
+}
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+function adventurous{
+  console.log (true ? 'Adventures are great!' : 'How about we stay home?');
+}
